@@ -1,0 +1,8 @@
+{
+  "name": "inbound-sms-devtools-workflow",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"demo": "tsx src/run_demo.ts", "test": "tsx src/inbound_reply.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.0", "@types/node": "^22.0.0"}
+}
